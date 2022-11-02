@@ -5,7 +5,6 @@
 
     font-family: 'Rubik', sans-serif;
 
-    //outline: 1px solid red;
 }
 :root{
     font-size: 18px;
@@ -139,7 +138,7 @@ ul {
         width: 16px;
 
         right: 8px;
-        bottom: -5px;
+        bottom: -3px;
         background: #FCB500;
         border-radius: 50%;
         color: #111;
@@ -204,8 +203,8 @@ ul {
                 filter: grayscale(1s);
                 font-size: 3rem;
                 position: relative;
-                top: 3rem;
-                left: 3rem;
+                top: 8vw;
+                left: 3vw;
                 opacity: 0.7;
             }
             &:hover{
@@ -248,48 +247,50 @@ ul {
 }
 .hero__background{
     position: absolute;
-    height: 100%;
+    height: 110%;
     width: 100%;
+    bottom: 0;
 
     overflow: hidden;
 
     .vector{
         position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        height: 100%;
+        width: 100%;
         &:nth-child(1){
-            background: url(assets/img/bg-1bl.svg) no-repeat;
-
-            left: 0;
-            bottom: 0;
-
-            height: 365px ;
-            width: 100%;
-            max-width: 737px;
+            background-image: url(assets/img/bg-1bl.png);
+            background-position: top left;
         }
         &:nth-child(2){
-            background: url(assets/img/bg-2bl.svg) no-repeat;
-
-            bottom: 0;
-
-            height: 431px;
-            width: 100%;
+            background-image: url(assets/img/bg-2bl.png);
+            background-position: top left;
         }
         &:nth-child(3){
-
+            background-image: url(assets/img/bg-3bl.png);
+            background-position: top left;
         }
         &:nth-child(4){
-
+            background-image: url(assets/img/bg-4bl.png);
+            background-position: top right;
         }
         &:nth-child(5){
-
+            background-image: url(assets/img/bg-5bl.png);
+            background-position: right;
         }
         &:nth-child(6){
-
+            background-image: url(assets/img/bg-6bl.png);
+            background-position: bottom right;
         }
         &:nth-child(7){
-
+            background-image: url(assets/img/bg-7bl.png);
+            background-position: bottom;
         }
         &:nth-child(8){
-
+            background-image: url(assets/img/bg-8bl.png);
+            background-position: bottom left;
         }
     }
 }
