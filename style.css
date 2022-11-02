@@ -190,7 +190,8 @@ ul {
   width: 100%;
 }
 #modal-navigation:target .modal_exit::before {
-  content: "🗙";
+  content: "✖️";
+  filter: grayscale(1s);
   font-size: 3rem;
   position: relative;
   top: 3rem;
