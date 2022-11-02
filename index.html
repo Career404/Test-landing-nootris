@@ -5,11 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel='stylesheet' href='style.css'>i
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+    <link rel='stylesheet' href='style.css'>
+    <!--<script src='script.js' defer></script>-->
+
+    <link rel="icon" href="assets/img/ginger.svg" type="image/icon type">
     <title>NOOTRIS - Активируй иммунитет</title>
 </head>
 <body>
 
+    <header class="breadcrumbs">
+        <nav class="container">
+            <a href="#">
+                <div class="img-wrap">
+                    <img src="assets/img/nootris-logo.svg" alt="nootris logo">
+                </div>
+            </a>
+            <ul class="breadcrumbs__nav-list desktop">
+                <a href="#faq"><li>FAQ</li></a>
+                <a href="#pay"><li>Оплата и доставка</li></a>
+                <a href="#returns"><li>Возврат</li></a>
+                <a href="#science"><li>Исследования</li></a>
+                <a href="#auth"><li>Личный кабинет</li></a>
+            </ul>
+            <a href="tel: 8(800)600-09-90" class="tablet">8 8 (800) 600-09-90</a>
+            <a href="https://youtu.be/dQw4w9WgXcQ"><div class="breadcrumbs__cart-icon"></div></a>
+            <a href="#modal-navigation" class="breadcrumbs__burger-menu mobile">
+                <div class="header_burger ">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </a>
+        </nav>
+    </header>
+    <div id="modal-navigation">
+        <a href="#" class="modal_exit"></a>
+        <div class="modal_content">
+            <ul class="modal__nav-list">
+            <a href="#faq"><li>FAQ</li></a>
+            <a href="#pay"><li>Оплата и доставка</li></a>
+            <a href="#returns"><li>Возврат</li></a>
+            <a href="#science"><li>Исследования</li></a>
+            <a href="#auth"><li>Личный кабинет</li></a>
+        </ul>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero__background">
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+            <div class="vector"></div>
+        </div>
+        <div class="hero__top-layer container">
+            <div class="hero__text-block">
+                <h1 class="hero__head">Активируй иммунитет!</h1>
+                <p class="hero__head-text">Всего пять секунд в день помогут укрепить иммунитет и повысить защитные силы организма</p>
+                <h3 class="hero__sub-head">NOOTRIS ПОМОГАЕТ</h3>
+                <p class="hero__sub-text">Вашему организму во время пандемии и сезонных простуд</p>
+            </div>
+        </div>
+        <div class="hero__decoration-wrap mobile">
+            <div class="hero__decoration"></div>
+            <div class="hero__decoration"></div>
+            <div class="hero__decoration"></div>
+        </div>
+    </section>
+    <div class="hero__img-block container">
+        <div class="hero__img-wrap desktop">
+            <div class="hero__img"></div>
+            <div class="hero__img"></div>
+            <div class="hero__img"></div>
+        </div>
+    </div>
+    <section class="discount">
+        <div class="container">
+            <h2 class="discount__text">получи защиту иммунитета <br/><span class="discount__text_orange">со скидкой -15% первым</span></h2>
+            <h3 class="discount__price"><span class="discount__price_old">&nbsp;750₽ </span>&nbsp;690₽ </h3>
+            <div class="discount__showcase">
+                <figure class="discount__showcase_secondary">
+                    <a href="#faq"><img src="assets/img/ginger.svg" alt="ginger root"></a>
+                    <figcaption>Содержит <br/><span class="discount__text_orange">имбирь</span></figcaption>
+                </figure>
+                <figure class="discount__showcase_primary">
+                    <a href="#payment"><img src="assets/img/nootris-pillbox-side.svg" alt="nootris pillbox"></a>
+                    <figcaption>+ Бесплатная доставка<br/><span class="discount__text_orange">Специальная цена</span></figcaption>
+                </figure>
+                <figure class="discount__showcase_secondary">
+                    <a href="#science"><img src="assets/img/virus.svg" alt="virus render"></a>
+                    <figcaption>Нейтрализует <br/><span class="discount__text_orange">вирусы</span></figcaption>
+                </figure>
+            </div>
+            <div class="discount__button-wrap"><button class="discount__buy-btn">Оформить заказ!</button></div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="https://career404.github.io/CV/">Dmitry Zhukov</a>
+    </footer>
 </body>
 </html>
